@@ -1,28 +1,7 @@
-`#Ethereum`
 
-# mTC - NFT Marketplace
+# NFT Marketplace
 
 This is an open decentralized NFT Marketplace built with smart contracts powered by Ethereum. It basically consists in an open platform where each user can mint his own NFT and expose it on a marketplace.
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [The Project](#the-project)
-- [Resources](#resources)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### The repository
-
-First, you will need to `clone` or `fork` the repository into your Github account:
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
-```
-$ git clone https://github.com/miquelTC/nft-marketplace.git
-```
 
 ### Installing
 
@@ -124,17 +103,7 @@ This project consists in an open platform where each user can mint his own NFT a
 - Tests built with JavaScripts to ensure smart contracts are accomplishing the expected functionalities
 - A React.js front-end application as a user interface
 
-### Project architecture
-
-<img src="./img/architecture.PNG" alt="architecture">
-
-The user can access the application via web-browser, and he must have the Metamask wallet installed. This interface, built with React.js, relies on the web3.js library to communicate with the smart contracts through Metamask. This means that the data reflected on the front-end application is fetched from the Ethereum blockchain. Each action performed by the user (mint a NFT, offer NFT, buy NFT...) creates a transaction on Ethereum, which will require Metamask confirmation and pay a small fee, and this transaction will permanently modify the state of the NFTCollection and NFTMarketplace smart contracts. On top of it, the user will upload the NFT Metadata to the IPFS, creating a permanent hash which will be permanently recorded on the blockchain itself to prove ownership.
-
 ### NFT Marketplace features
-
-<img src="./img/layout.PNG" alt="layout">
-
-The user can perform the following actions on this NFT Marketplace:
 
 #### Mint
 
